@@ -1,6 +1,6 @@
 module AmmarsMegaLotto
   class Drawing
-    NUMBERS = 5
+    NUMBERS = 6
 
     def draw
       NUMBERS.times.map { single_draw }

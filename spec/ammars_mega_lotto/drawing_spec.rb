@@ -10,7 +10,7 @@ module AmmarsMegaLotto
       end
       
       it "returns an array with 5 elements" do
-        expect(draw.size).to eq(5)
+        expect(draw.size).to eq(6)
       end
 
       it "each element is an integer" do
