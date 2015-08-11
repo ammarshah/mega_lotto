@@ -1,4 +1,4 @@
-module MegaLotto
+module AmmarsMegaLotto
   class Drawing
     NUMBERS = 5
 

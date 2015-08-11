@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'mega_lotto/version'
+require 'ammars_mega_lotto/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "mega_lotto"
-  spec.version       = MegaLotto::VERSION
+  spec.name          = "ammars_mega_lotto"
+  spec.version       = AmmarsMegaLotto::VERSION
   spec.authors       = ["ammarshah"]
   spec.email         = ["ammarshah123@gmail.com"]
 

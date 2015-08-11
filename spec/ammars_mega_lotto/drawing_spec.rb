@@ -1,9 +1,9 @@
 require "spec_helper"
 
-module MegaLotto
+module AmmarsMegaLotto
   describe Drawing do
     describe "#draw" do
-      let(:draw) { MegaLotto::Drawing.new.draw }
+      let(:draw) { AmmarsMegaLotto::Drawing.new.draw }
 
       it "returns an array" do
         expect(draw).to be_a(Array)

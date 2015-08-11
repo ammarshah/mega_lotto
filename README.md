@@ -1,4 +1,4 @@
-# MegaLotto
+# AmmarsMegaLotto
 
 A Ruby gem to generate lottery drawings.
 
@@ -7,7 +7,7 @@ A Ruby gem to generate lottery drawings.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'mega_lotto'
+gem 'ammars_mega_lotto'
 ```
 
 And then execute:
@@ -16,12 +16,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install mega_lotto
+    $ gem install ammars_mega_lotto
 
 ## Usage
 
 ```ruby
-MegaLotto::Drawing.new.draw # => [23, 2, 12, 4, 3, 26]
+AmmarsMegaLotto::Drawing.new.draw # => [23, 2, 12, 4, 3, 26]
 ```
 
 ## Contributing
